@@ -61,6 +61,25 @@
   font-size: .7em;
 }
 
+.create-post-body .search-middle .grade, .create-post-body .search-middle .status {
+  margin-top: 1.5em;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.create-post-body .search-middle .grade .label, .create-post-body .search-middle .status .label {
+  margin-right: 17%;
+}
+
+.create-post-body .search-middle .grade .grade-point, .create-post-body .search-middle .status .grade-point {
+  color: black;
+}
+
+.create-post-body .search-middle .status .grade-status {
+  color: #3ec96c;
+}
+
 .create-post-body .search-middle .select-semester-option {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -61,6 +61,25 @@
             display:flex;
             justify-content: space-between;
         }
+
+        .grade, .status{
+            margin-top:1.5em;
+            justify-content: unset;
+            .label{
+                margin-right:17%;
+            }
+            .grade-point{
+                color:black;
+                
+            }
+        }
+
+        .status{
+            
+            .grade-status{
+                color:rgb(62, 201, 108);
+            }
+        }
         .select-semester-option{
             display: flex;
             align-items: center;
