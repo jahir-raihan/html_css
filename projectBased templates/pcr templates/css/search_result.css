@@ -31,7 +31,7 @@
   margin: 2em auto;
 }
 
-.create-post-body .search-middle .input {
+.create-post-body .search-middle .input, .create-post-body .search-middle .grade, .create-post-body .search-middle .status {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -44,12 +44,12 @@
           justify-content: space-between;
 }
 
-.create-post-body .search-middle .input span {
+.create-post-body .search-middle .input span, .create-post-body .search-middle .grade span, .create-post-body .search-middle .status span {
   display: block;
   opacity: 80%;
 }
 
-.create-post-body .search-middle .input input {
+.create-post-body .search-middle .input input, .create-post-body .search-middle .grade input, .create-post-body .search-middle .status input {
   height: 35px;
   width: 70%;
   border: none;
