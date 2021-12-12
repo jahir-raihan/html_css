@@ -20,7 +20,7 @@
 }
 
 .create-post-body .search-top .line {
-  width: 35%;
+  width: 130px;
   height: 1px;
   background: black;
   margin: auto;
@@ -114,5 +114,91 @@
   color: white;
   font-weight: 545;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 955px) {
+  .right {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-right {
+    display: none !important;
+  }
+  .toggle {
+    display: unset;
+  }
+  .left {
+    display: none;
+    height: 0 !important;
+  }
+  .ham-bar {
+    margin-bottom: .2em;
+  }
+  .right {
+    display: none;
+  }
+  .container {
+    display: unset !important;
+  }
+  .main {
+    width: 90%;
+    margin: 1em auto;
+  }
+  .back-btn {
+    min-width: unset !important;
+    max-width: unset !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .create-post-body {
+    width: 100% !important;
+    min-width: unset !important;
+  }
+  .main {
+    width: 95% !important;
+  }
+  .create-post-head {
+    margin-bottom: .5em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .input {
+    display: block !important;
+  }
+  .input input {
+    border-radius: 4px !important;
+    width: 100% !important;
+  }
+  .input span {
+    margin-bottom: .2em;
+  }
+  .select-semester-option {
+    display: block !important;
+  }
+  .select-semester-option .label {
+    margin-bottom: .2em;
+  }
+  .s-semester {
+    border-radius: 4px !important;
+    margin-left: unset !important;
+  }
+  .s-semester select {
+    border-radius: 4px !important;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .logo-text {
+    font-size: .8em !important;
+  }
+  .ham {
+    width: 20px !important;
+    margin-top: .3em !important;
+  }
 }
 /*# sourceMappingURL=search_result.css.map */
