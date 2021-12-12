@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+
+}
+body{
+    background:#eee;
+}
+header{
+    background:#f3f3f3;
+    border-bottom:1px solid gainsboro;
+    position:sticky;
+    top:0;
+    
+    .logo{
+        color:white;
+        font-size:1.3em;
+        font-weight: bolder;
+        color:black;
+        text-align: center;
+    }
+    
+
+    .nav-container{
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        margin:0 auto;
+        padding:1em;
+        align-self: center;
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            
+
+            li{
+                margin-left:2.7em;
+                
+                text-align: center;
+
+                a{
+                    text-decoration: none;
+                    color:rgb(27, 107, 255);
+                    font-size:14px;
+                    
+                }
+
+            }
+            
+        }
+        button{
+            width:70px;
+            height:29px;
+            border:none;
+            background:black;
+            color:white;
+            border-radius: 44px;
+            margin-left:2em;
+        }
+        
+    }
+}
+
+.container{
+    height:100vh;
+    width:90%;
+    margin:1em auto;
+
+    .hero{
+        position:fixed;
+        top:60px;
+        right:0;
+        z-index:-2;
+        
+        .hero-svg{
+            width:500px;
+        }
+    }
+    .intro{
+        text-align:center;
+        h1{
+            font-size:3rem;
+            font-weight: bold;
+        }
+        h2{
+            font-size:1.7rem;
+        }
+    }
+
+    .grid-container{
+        width:100%;
+        margin:1 auto;
+        display:grid;
+        grid-template-columns: 15% auto;
+        
+        justify-content: center;
+
+        
+
+        .one{
+            width:200px;
+            height:250px;
+           
+            .card{
+                background:rgb(255, 189, 9);
+                height:400px;
+                width:200px;
+                text-align:center;
+                border-radius: 20px;
+
+                p{
+                    padding:2em .7em;
+                }
+                small{
+                    opacity: .6;
+                }
+
+                
+            }
+            .cta{
+                width:97%;
+                margin:1em auto;
+                height:60px;
+                text-decoration: none;
+                background:rgb(255, 255, 255);
+                border:1px solid rgba(0, 0, 0, 0.342);
+                text-align:center;
+                border-radius: 44px;
+                -webkit-box-shadow: -1px -2px 21px -3px #000000; 
+                box-shadow: -1px -2px 21px -3px #000000;
+                
+                p{
+                    padding-top:1em;
+                }
+                
+            }
+           
+
+        }
+        .two{
+            
+            margin-left:2em;
+            
+
+            .two-one{
+                display:flex;
+                
+                margin-left:1em;
+
+                .card1{
+                    width:400px;
+                    height:300px;
+                    background:rgb(0, 214, 0);
+                    
+                    text-align: center;
+
+                    border-radius: 20px;
+                    h1{
+                        margin-top:4em;
+                        color:rgb(255, 255, 255);
+                    }
+                }
+            
+                .card23{
+                    margin-left:1em;
+                    margin-top:2em;
+                    
+                    .inner-p{
+                        margin-left:1em;
+                    }
+                    .inner-card23{
+                        display:flex;
+                        
+
+                        .card2, .card3{
+                            width:200px;
+                            height: 200px;
+                            background:rgb(0, 255, 191);
+                            border-radius: 20px;
+                            margin:1em ;
+                        
+                        }
+                        .card3{
+                            background:#ff08ff;
+                        }
+                    }
+
+                }
+            }
+
+            .two-two{
+                display:flex;
+                
+                .card4{
+                    width:200px;
+                    height:200px;
+                    background:#ff4be7;
+                    margin:1em;
+                    border-radius: 20px;
+                }
+
+                .card5{
+                    width:350px;
+                    height:250px;
+                    margin:1em 0;
+                    background:rgb(96, 96, 255);
+                    border-radius: 20px;
+                    text-align:center;
+                    h1{
+                        margin-top:3.5em;
+                    }
+                }
+                .card6{
+                    width:200px;
+                    height:200px;
+                    background:#ff641d;
+                    border-radius: 20px;
+                    margin:1em;
+                }
+            }
+        }
+    }
+}
+
+.pricing{
+    width:90%;
+    margin: 3em auto;
+    
+
+    .pricing-intro{
+        
+        text-align: center;
+        h1{
+            font-size:3rem;
+        }
+        h3{
+            color:#929292d7;
+
+            span{
+                color:#6E00EE;
+            }
+        }
+    }
+    
+    .main{
+        width:90%;
+        margin:2em auto;
+        display:flex;
+        justify-content:space-between;
+
+        .pricing1, .pricing3{
+            width:300px;
+            height:500px;
+            border:1px solid rgba(0, 0, 0, 0.274);
+            border-radius: 20px;
+            background:#fff;
+            padding:2em .5em;
+            -webkit-box-shadow: 0px 8px 23px 4px rgba(0,0,0,0.3); 
+box-shadow: 0px 8px 23px 4px rgba(0,0,0,0.3);
+            
+            .ti{
+                font-size:10px;
+                margin-left:1em;
+            }
+            .p-heading{
+                color:#6E00EE;
+                text-transform: uppercase;
+                font-size:10px;
+                font-family: 'Montserrat';
+            }
+            .i-h{
+                font-size:2em;
+            }
+
+            ul{
+                margin:2em 0;
+                list-style: none;
+                li{
+                    display:flex;
+                    
+                    text-align: center;
+                    align-items: center;
+                    p{
+                        margin-left:.4em;
+                    }
+                    
+                }
+            }
+            button{
+                width:80%;
+                margin:10em 2em auto;
+                
+                height:50px;
+                border-radius: 44px;
+                border:none;
+                -webkit-box-shadow: 0px 8px 23px 4px rgba(0,0,0,0.3); 
+                box-shadow: 0px 8px 23px 4px rgba(0,0,0,0.3);
+                outline:none;
+            }
+        }
+
+        .pricing2{
+
+
+            width:350px;
+            height:550px;
+            border:1px solid rgba(0, 0, 0, 0.274);
+            border-radius: 20px;
+            background:#fff;
+            padding:2em .5em;
+            -webkit-box-shadow: 0px 11px 19px -4px #0000009f; 
+            box-shadow: 0px 11px 19px -4px #000000ad;
+
+            .ti{
+                font-size:10px;
+                margin-left:1em;
+            }
+            .p-heading{
+                color:#6E00EE;
+                text-transform: uppercase;
+                font-size:10px;
+                font-family: 'Montserrat';
+            }
+            .i-h{
+                font-size:2em;
+            }
+            .btn{
+                text-decoration: none;
+                width:70px;
+                border:1px solid black;
+                text-align: center;
+                border-radius: 20px;
+                font-size:12px;
+                font-family: 'Montserrat';
+            }
+
+            .pricing-header{
+                display:flex;
+                justify-content: space-between;
+            }
+            ul{
+                margin:2em 0;
+                list-style: none;
+                li{
+                    display:flex;
+                    
+                    text-align: center;
+                    align-items: center;
+                    p{
+                        margin-left:.4em;
+                    }
+                    
+                }
+            }
+            button{
+                width:80%;
+                margin:12em 2em auto;
+                
+                height:50px;
+                border-radius: 44px;
+                border:none;
+                -webkit-box-shadow: 0px 11px 19px -4px #000000; 
+                box-shadow: 0px 11px 19px -4px #000000;
+                outline:none;
+            }
+        }
+    }
+}

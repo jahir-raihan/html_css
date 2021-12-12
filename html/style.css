@@ -1,0 +1,414 @@
+.container{
+	width: 80%;
+	margin: auto;
+}
+.header{
+	background-color: #fff;
+	box-shadow:0px 0px 5px #333;
+}
+.header:after{
+	content: '' ;
+	display: block;
+	clear: both;
+}
+
+.top-header{
+	background-color: #00184e;
+	box-shadow:0px 0px 3px #333;
+	padding:5px 0px;
+}
+
+.top-header:after{
+	content: '' ;
+	display: block;
+	clear: both;
+}
+
+
+.top-left{
+	width:50%;
+	float:left; 
+}
+.top-left ul{
+
+}
+.top-left ul li{
+	display: inline-block;
+	color: #fff;
+}
+
+.top-left ul li a{
+	font-family: candara;
+	font-size: 16px;
+	color: #fff;
+}
+
+.top-right{
+	width:50%;
+	float:left; 
+}
+
+.top-right ul{
+	text-align: right;
+}
+
+.top-right ul li {
+	display: inline-block;
+}
+
+.top-right ul li a{
+	font-size: 16px;
+	display: block;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+}
+.top-right ul li a:hover{
+	background-color: darkgray;
+	color: #fff;
+	transition: 1s;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 170px;
+	height: 100px;
+}
+.menu{
+	float: left;
+	width: 60%;
+	margin-top: 20px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	font-family: candara;
+	font-size: 16px;
+	color: #000;
+	border-radius: 10px;
+	transition: 1s;
+}
+.menu ul li:hover a{
+	background-color: gray;
+	color:#fff;
+}
+.banner{
+	background-image: url(img/h2.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+.banner2{
+	background-image: url(img/h.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+.japsa{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	overflow:hidden;
+}
+
+.header-con{
+	width: 500px;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+	margin-top: 180px;
+}
+
+.header-con h3{
+	color: #fff;
+	font-family: candara;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.header-con h1{
+	color: #fff;
+	font-family: quick;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.skill-box{
+	background-color: #7c9de8;
+	padding: 50px 0px
+}
+
+.skill-content h2{
+	font-size:40px; 
+	color:#fff;
+	font-family: candara;
+	text-transform: uppercase;
+	text-align: center;
+}
+.skill-content p{
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.container1 {
+  width: 60%; /* Full width */
+  background-color: #ddd; 
+  margin: auto;
+}
+.skills{
+  text-align: right; 
+  padding: 10px 0px;
+  color: white; 
+}
+.WEB_DESIGN {width: 90%; 
+  background-color: #508cb7;
+} 
+
+.WEB_DEVELOPMENT {width: 80%;
+ background-color: #2196F3;
+} 
+
+.GRAPICS_DESIGN {width: 65%; 
+  background-color: #004eff;
+}
+
+.skill-title{
+	padding: 10px 0px;
+	color: #fff;
+	font-family: candara;
+	font-weight: bolder;
+	margin: auto;
+	width: 60%;
+}
+
+.line{
+	width: 70%;
+	border-top:none;
+	border-bottom: 1.5px dotted #fff;
+}
+.line2{
+	width: 50%;
+	border-top:none;
+	border-bottom: 1.5px dotted #fff;
+}
+
+.services{
+	padding: 50px 0px;
+	background-color: #e7f1f8;
+	text-align: center;
+}
+
+.services h2{
+	font-size:40px; 
+	color:#3c4761;
+	font-family: candara;
+	text-transform: uppercase;
+	margin:5px 0px;
+}
+
+.services p{
+	color: #333;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.services-box{
+	width: 30%;
+	display: inline-block;
+	padding: 20px 0px;
+	margin-right: 20px;
+}
+.services-box p {
+	color: #3c4761;
+}
+.services-box h2{
+	color: #30bae7;
+	font-family: candara;
+	font-size: 30px;
+}
+
+
+.services-box img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	z-index: 333;
+}
+
+
+
+.Team-Member{
+	padding: 50px 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.Team-Member h2{
+	font-size:30px; 
+	color:#00184e;
+	font-weight: normal;
+	font-family: impact;
+	text-transform: uppercase;
+	margin:5px 0px;
+}
+
+.Team-Member p{
+	color: #00184e;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.team-box{
+	width: 30%;
+	display: inline-block;
+	padding: 20px 0px;
+	margin-right: 20px;
+}
+.team-box img{
+	width:120px;
+	height:120px;
+	border-radius:50%
+}
+.team-box h3{
+	color: #00184e;
+	font-family: tahoma;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.icon ul{
+	text-align: center;
+}
+
+.icon ul li {
+	display: inline-block;
+}
+
+.icon ul li a{
+	font-size: 16px;
+	display: block;
+	padding: 5px 10px;
+	border: 1px solid #00184e;
+	border-radius: 50%;
+	text-align: center;
+	color: #00184e;
+	transition: 1s;
+}
+.icon ul li a:hover{
+	background-color: #00184e;
+	color: #fff;
+}
+
+
+.contact-box{
+	padding: 50px 0px;
+	background-color: #00184e;
+}
+.contact-box h2{
+	color: #fff;
+	font-family: tahoma;
+	font-size: 33px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.input-box input{
+	width: 100%;
+	padding: 10px 10px;
+	font-size: 18px;
+	border:none;
+	background-color: #273A72;
+	color:#ffffff;
+	border-radius:5px;
+	box-sizing: border-box;
+	font-family: tahoma;
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 70px;
+	margin-right: -55px;
+}
+
+.input-box input:nth-child(1){
+	width: 40%;
+}
+.input-box input:nth-child(2){
+	width: 40%;
+}
+
+.input-box textarea{
+	width: 82.6%;
+	margin-left: 80px;
+	margin-top: 30px;
+	border-radius:5px;
+	border:none;
+	box-sizing: border-box;
+	background-color: #273A72;
+	font-family: tahoma;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 10px;
+	max-width: 82.7%;
+	max-height: 260px;
+	height: 220px;
+}
+.input-box a{
+	color: #00184e;
+	font-family: tahoma;
+	text-align: center;
+	background-color: #30BAE8;
+	display: block;
+	padding: 20px 0px;
+	width: 25%;
+	margin:40px auto;
+	text-transform: uppercase;
+	border-radius:5px;
+	border-bottom:5px solid #289FC3;
+}
+
+
+.contact-box hr{
+	width: 100px;
+	height: 4px;
+	border:none;
+	background-color: #fff;
+	opacity: 0.600;
+}
+
+.footer-icon{
+	padding: 30px 0px;
+	background-color: #344B8F;
+}
+.link ul{
+	text-align: center;
+}
+.link ul li{
+	display: inline-block;
+}
+.link ul li a{
+	color: #fff;
+	padding: 10px 30px;
+	display: block;
+	font-family: tahoma;
+	font-size: 18px;
+}
+
+.link ul li a:hover{
+	color: #30bae8;
+}

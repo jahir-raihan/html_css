@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #8000FF url("/images/bg.png");
+  background-size: cover;
+  color: #fff;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section, header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% auto 6em;
+      grid-template-columns: 75% auto 6em;
+}
+
+.left, .right, .middle {
+  height: 100vh;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 2em;
+}
+
+header a.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  padding: 2.5em 1.5em;
+  display: block;
+}
+
+header nav ul li a.active {
+  font-weight: bold;
+  background: white;
+  color: black;
+  margin-left: 2em;
+  padding: 2.5em;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 40%;
+  line-height: rem;
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+h2 {
+  color: #8000FF;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.left {
+  padding: 8em 10em;
+}
+
+.left p.subhead {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: -.5rem;
+}
+
+a {
+  display: block;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5em;
+}
+
+.cards .card {
+  padding: 2em;
+  -webkit-box-shadow: 15px 15px 53px rgba(128, 0, 255, 0.11);
+          box-shadow: 15px 15px 53px rgba(128, 0, 255, 0.11);
+  border-radius: .5em;
+  padding: 2em;
+}
+
+.cards .card strong {
+  color: black;
+}
+
+.cards .card p {
+  color: #393241;
+}
+
+.cards .card:nth-of-type(2) {
+  margin-left: 2em;
+}
+
+.cards .card .cta {
+  padding: .5em 1em;
+  border-radius: .3em;
+  text-decoration: none;
+  background: #8000FF;
+  margin-top: 1em;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+.cards .card .pay-once {
+  background: #d8d8d8;
+  color: #3F007E;
+}
+
+.middle {
+  padding-top: 10em;
+}
+
+.middle a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  padding: .4em 0;
+}
+
+.middle .secondary a:hover {
+  color: #8000FF;
+}
+
+.middle .social-nav {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.middle a:hover svg path {
+  fill: #8000FF;
+}
+
+.right {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  background-color: #8000FF;
+}
+
+.exit {
+  margin-top: 1.2em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

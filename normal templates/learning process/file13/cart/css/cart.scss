@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.main{
+    
+    width:100%;
+    max-width: 1600px;
+    min-width:1400px;
+    margin:auto;
+   
+    
+   
+    
+    
+
+    header{
+        
+        background:white;
+        text-align: center;
+        
+    }
+    
+    nav{
+        
+        padding:.4em;
+        width:90%;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            padding-top:.2em;
+        }
+        .nav-links{
+            ul{
+                padding-top:.5em;
+                display:flex;
+                justify-content:space-between;
+
+                li{
+                    margin-right:2.9em;
+                    a{
+                        font-size:16px;
+                        color:black;
+                    }
+
+                }
+                a:hover{
+                    color:#56B280;
+                }
+            }
+
+            
+        }
+        .cart-profile{
+            padding-top:.5em;
+            align-items: center;
+           
+            align-content:center;
+
+            img{
+                width:25px;
+                align-self:center;
+            }
+        }
+    }
+}
+
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+select{
+    border:none;
+    font-size:16px;
+    outline:none;
+}
+
+
+
+
+.main-container{
+    
+    width:90%;
+    margin:0 auto;
+    padding:.4em;
+
+    .top{
+        text-align:center;
+        margin-top:5em;
+
+        a{
+            color:#56B280;
+            text-decoration: underline;
+            margin-top:1em;
+            display:block;
+        }
+    }
+
+
+    .middle{
+        padding-bottom:1em;
+        margin-top:4em;
+        .details{
+            display:flex;
+            justify-content: space-between;
+            border-bottom: .4px solid rgba(0, 0, 0, 0.178);
+            padding-bottom:.7em;
+
+
+
+        }
+
+        .item{
+            display: flex;
+            justify-content: space-between;
+
+            .right{
+                ul{
+                    margin-top:3em;
+                }
+            }
+
+            .left{
+                .img{
+                    margin-top:1.5em;
+                }
+            }
+           
+        }
+        .right{
+            ul{
+                display:flex;
+               
+                .q-btn{
+                    display:flex;
+                    justify-content: space-around;
+                    width:70px;
+                    border:2px solid #56B280;
+
+                    span{
+                        display:block;
+                    }
+                }
+
+                .one{
+                    margin-right:12.5em;
+                }
+                .two{
+                    margin-right:12em;
+                }
+                
+            }
+        }
+
+        .left{
+
+            display:flex;
+           
+            a{
+                color:#56B280;
+                text-decoration: underline;
+                margin-top:1em;
+                display:block;
+            }
+
+            .con{
+                margin-top:3em;
+            }
+        }
+    }
+}
+
+
+
+
+.bottom{
+    border-top:.4px solid rgba(0, 0, 0, 0.247);
+    padding-top:2em;
+    display:grid;
+    grid-template-columns: 55% 45%;
+
+    .b-right{
+        display:flex;
+        justify-content: space-between;
+        
+        .s-left{
+            .s-top{
+                display: flex;
+                justify-content: space-between;
+                p{
+                    margin-left:5em;
+                }
+                
+            }
+            small{
+                display:block;
+                margin-top: 1em;
+                opacity: 70%;
+            }
+        }
+        .s-right{
+            margin-top:1em;
+        }
+        
+    }
+
+
+}
+
+
+
+.btn{
+    
+    background:#56B280;
+    color:white;
+    border-radius: 4px;
+    padding-left:3.5em;
+    
+    height:40px;
+    padding-top:.59em;
+    width:200px;
+    
+   
+}
+
+
+footer{
+    margin-top:10em;
+    background:black;
+    
+    padding:9em;
+    
+
+    .right{
+        display:flex;
+        justify-content: space-between;
+        margin-top:3em;
+
+        ul{
+            li{
+                p{
+                    margin-bottom:.8em;
+                }
+            }
+        }
+    }
+    .left{
+        width:320px;
+        p{
+            color:white;
+            
+        }
+    }
+    p{
+        color:white;
+    }
+    .contents{
+        padding-top:.9em;
+        border-top:4px solid gray;
+        display:grid;
+        grid-template-columns: 40% 55%;
+        width:93%;
+
+
+    }
+
+    
+}

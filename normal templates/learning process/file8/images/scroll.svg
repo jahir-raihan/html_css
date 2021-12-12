@@ -1,0 +1,12 @@
+<svg  width="56" height="112" viewBox="0 0 56 112">
+  <g id="Group_7" data-name="Group 7" transform="translate(-132 -761)">
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(132 761)" fill="none" stroke="#fff" stroke-width="6">
+      <rect width="56" height="112" rx="28" stroke="none"/>
+      <rect x="3" y="3" width="50" height="106" rx="25" fill="none"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(148 785)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+      <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+    </g>
+  </g>
+</svg>

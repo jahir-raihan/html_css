@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg_road.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.car{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    bottom: 25%;
+    animation: run 10s linear infinite;
+}
+
+.car-body img {
+    width: 30rem;
+}
+
+.car-tire{
+    position: absolute;
+    display: flex;
+    gap: 11.8rem;
+    top: 118px;
+    left: 73px;
+}
+.tire{
+    width: 42%;
+    height: 15%;
+    animation: roll 2s linear infinite;
+}
+
+@keyframes roll {
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes run {
+    0% {
+        left: -30%;
+      }
+      50% {
+        left: 150%;
+      }
+      100% {
+        right: -30%;
+      }
+    
+}

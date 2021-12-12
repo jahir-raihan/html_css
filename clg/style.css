@@ -1,0 +1,90 @@
+
+.hadear{
+    background-color: #F4F5F0;
+    padding: 10px 0px;
+}
+.hadear:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.mid{
+    width: 80%;
+    margin:auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+    margin-top: 10px ;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 20px 20px;
+    color: gray;
+    display: block;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+
+
+
+
+.plane{
+    width: 100%;
+    margin:auto;
+    height: 100vh;
+    background:#F4F5F0;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+
+.plane-con{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/road.jpg);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.plane-img{
+    width: 200px;
+    position: absolute;
+    right: -40px;
+    bottom: 190px;
+    animation: plan 5s linear    infinite;
+    
+}
+
+@keyframes plan {
+    0%{
+        transform: translateX(200px) ;
+    }
+
+
+    50%{
+        transform: translateX(-500px) translateY(-0px) rotate(0deg);
+    }
+    
+    100%{
+        transform: translateX(-1500px) translateY(-200px) rotate(20deg);
+    }
+    
+    
+}

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.main {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 1400px;
+  margin: auto;
+}
+
+.main header {
+  background: white;
+  text-align: center;
+}
+
+.main nav {
+  padding: .4em;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main nav .logo {
+  padding-top: .2em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: #56B280;
+}
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: .4em;
+}
+
+.main-container .link-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.main-container .link-arrow p {
+  padding-right: 1em;
+  font-size: 17px;
+}
+
+.main-container .radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .radio p {
+  padding-left: 1em;
+}
+
+a {
+  color: #56B280;
+  text-decoration: underline;
+}
+
+.btn {
+  background: #56B280;
+  color: white;
+  border-radius: 4px;
+  padding-left: 2.5em;
+  height: 40px;
+  padding-top: .49em;
+  width: 200px;
+}
+
+.one {
+  margin-bottom: 2em;
+}
+
+.one .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49% auto;
+      grid-template-columns: 49% auto;
+}
+
+.main-container .left {
+  padding-top: 2em;
+  padding-right: 3em;
+}
+
+.main-container .right {
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
+.main-container .email {
+  width: 100%;
+  height: 40px;
+  padding-left: 1em;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline-color: black;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.main-container .title {
+  font-size: 18px;
+}
+
+.main-container .input1 input {
+  width: 49.6%;
+  height: 40px;
+  padding-left: 1em;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline-color: black;
+  margin: .5em 0;
+}
+
+.main-container .input2 input {
+  width: 100%;
+  height: 40px;
+  padding-left: 1em;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline-color: black;
+  margin: .5em 0;
+}
+
+.main-container .one2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .right {
+  background: #F2F2F2;
+}
+
+.main-container .right .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container .right .top .desc {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.main-container .right .top .desc p {
+  font-size: 17px;
+}
+
+.main-container .right .top .desc .money {
+  color: #56B280;
+  font-size: 19px;
+}
+
+.main-container .right .middle {
+  margin-top: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .right .middle input {
+  width: 75%;
+  height: 40px;
+  padding-left: 1em;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline-color: black;
+  margin: .5em 0;
+}
+
+.main-container .right .middle .c-btn {
+  margin-left: 1em;
+  background: #A8A8A8;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding: .5em 1em;
+  color: white;
+  border-radius: 4px;
+}
+
+.main-container .right .middle .c-btn:hover {
+  background: #56B280;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.main-container .right .bottom {
+  width: 93%;
+}
+
+.main-container .right .bottom .det {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.5em;
+}
+
+.main-container .right .bottom .det .bit {
+  font-size: 19px;
+}
+/*# sourceMappingURL=authenication.css.map */

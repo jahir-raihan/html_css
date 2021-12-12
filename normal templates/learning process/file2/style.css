@@ -1,0 +1,99 @@
+body, html{
+    height:calc(100% -2em);
+    margin:0;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0f1d9f+1,e200ff+100,207cca+100,7db9e8+100 */
+    background: #0f1d9f; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #0f1d9f 1%, #e200ff 100%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #0f1d9f 1%,#e200ff 100%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #0f1d9f 1%,#e200ff 100%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1d9f', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color:#fff;
+    width:95%;
+    margin:2em auto;
+    display:grid;
+    grid-template-columns: 20% auto;
+    height:90vh;
+}
+
+.left{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows:20% auto;
+    padding:0;
+    background:#a8c8e1;
+}
+a{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:.8em;
+    display:block;
+    padding:1.5em 3em;
+    background-color:rgba(255, 255, 255, .35);
+    color:black;
+}
+
+li{
+    list-style: none;
+}
+.img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:white;
+    margin:2em auto 1em auto;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    margin:0;
+    padding:0;
+}
+ul{
+    padding:0;
+    margin:2em 0;
+}
+ul li a:hover{
+    background-color:white;
+    transition-duration: .4s;
+}
+
+.right{
+    
+    padding:4em;
+
+    background:white url('bg.svg' ) no-repeat bottom right;
+    background-size:70%;
+
+
+}
+h1{
+    font-size:3em;
+}
+p{
+    font-size:1.3em;
+    line-height: 2em;
+}
+.ctn{
+    background:#0088ff;
+    text-align:center;
+    width:200px;
+    font-size:1.1em;
+    padding:1em;
+    margin-top:4em;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+

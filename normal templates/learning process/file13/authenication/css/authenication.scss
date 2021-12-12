@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.main{
+    
+    width:100%;
+    max-width: 1600px;
+    min-width:1400px;
+    margin:auto;
+   
+    
+   
+    
+    
+
+    header{
+        
+        background:white;
+        text-align: center;
+        
+    }
+    
+    nav{
+        
+        padding:.4em;
+        width:90%;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            padding-top:.2em;
+        }
+        
+        
+    }
+}
+
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+.active{
+    color:#56B280;
+}
+
+.main-container{
+    
+    width:90%;
+    margin:0 auto;
+    padding:.4em;
+
+
+    .link-arrow{
+        display:flex;
+        margin-top:1.5em;
+        
+        
+        p{
+            padding-right:1em;
+            font-size:17px;
+        }
+    }
+    
+    .radio{
+       display: flex;
+       align-items: center;
+       p{
+           padding-left:1em;
+       }
+    }
+}
+
+
+a{
+    color:#56B280;
+    text-decoration: underline;
+    
+   
+}
+
+.btn{
+    
+    background:#56B280;
+    color:white;
+    border-radius: 4px;
+    padding-left:2.5em;
+    
+    height:40px;
+    padding-top:.49em;
+    width:200px;
+    
+   
+}
+
+
+.one{
+
+    margin-bottom:2em;
+    .heading{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+
+.main-container{
+    .content{
+        display:grid;
+        grid-template-columns: 49% auto;
+    }
+
+
+    .left{
+
+        padding-top:2em;
+        padding-right:3em;
+    }
+
+    .right{
+        padding-top:2em;
+        padding-left:3em;
+    }
+
+    .email{
+        width:100%;
+        height:40px;
+        padding-left:1em;
+        font-size:17px;
+        border:1px solid black;
+        border-radius: 4px;
+        outline-color:black;
+        margin-top:.5em;
+        margin-bottom:.5em;
+    }
+
+    .title{
+        font-size:18px;
+    }
+
+    .input1{
+
+        input{
+            width:49.6%;
+            height:40px;
+            padding-left:1em;
+            font-size:17px;
+            border:1px solid black;
+            border-radius: 4px;
+            outline-color:black;
+            margin:.5em 0;
+        }
+    }
+    .input2{
+        input{
+
+       
+            width:100%;
+            height:40px;
+            padding-left:1em;
+            font-size:17px;
+            border:1px solid black;
+            border-radius: 4px;
+            outline-color:black;
+            margin:.5em 0;
+
+        }
+        
+    }
+
+    .one2{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+
+    .right{
+        background:#F2F2F2;
+        .top{
+            display:flex;
+            
+           
+
+            .desc{
+                margin-top:2em;
+                margin-left:2em;
+
+                p{
+                    font-size:17px;
+                }
+                .money{
+                    color:#56B280;
+                    font-size:19px;
+                }
+            }
+        }
+
+
+        .middle{
+            margin-top:1.5em;
+            display:flex;
+            align-items:center;
+            input{
+                width:75%;
+                height:40px;
+                padding-left:1em;
+                font-size:17px;
+                border:1px solid black;
+                border-radius: 4px;
+                outline-color:black;
+                margin:.5em 0;
+            }
+
+            .c-btn{
+                margin-left:   1em;
+                background:#A8A8A8;
+                padding-left:1em;
+                padding-right:1em;
+                padding:.5em 1em;
+                color:white;
+                border-radius: 4px;
+                
+            }
+            .c-btn:hover{
+                background:#56B280;
+                
+                transition-duration: .2s;
+
+            }
+
+            
+        }
+
+        .bottom{
+            width:93%;
+            .det{
+                display:flex;
+                justify-content: space-between;
+                margin-top:2.5em;
+
+                .bit{
+                    font-size:19px;
+                }
+            }
+        }
+    }
+    
+}

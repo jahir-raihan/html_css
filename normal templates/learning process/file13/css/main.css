@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.main {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 1400px;
+  margin: auto;
+  background: url(/images/bg-image.png) no-repeat;
+  background-size: 1600px;
+}
+
+.main header {
+  background: white;
+  text-align: center;
+}
+
+.main nav {
+  padding: .4em;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main nav .logo {
+  padding-top: .2em;
+}
+
+.main nav .nav-links ul {
+  padding-top: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main nav .nav-links ul li {
+  margin-right: 2.9em;
+}
+
+.main nav .nav-links ul li a {
+  font-size: 16px;
+  color: black;
+}
+
+.main nav .nav-links ul a:hover {
+  color: #56B280;
+}
+
+.main nav .cart-profile {
+  padding-top: .5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main nav .cart-profile img {
+  width: 25px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-container .hero {
+  -webkit-box-shadow: 0px 1px 20px -4px rgba(0, 0, 0, 0.89);
+  box-shadow: 0px 1px 20px -4px rgba(0, 0, 0, 0.89);
+  width: 50%;
+  margin: 12em auto;
+  height: 350px;
+  background: #fff;
+  opacity: 92%;
+  border-radius: 4px;
+  text-align: center;
+  padding: 2em;
+  padding-top: 4em;
+}
+
+.main-container .hero .title {
+  font-size: 26px;
+}
+
+.main-container .hero .desc {
+  margin: 1em 0;
+}
+
+.main-container .hero .btn {
+  background: #56B280;
+  color: white;
+  width: 60%;
+  height: 40px;
+  margin: 3em auto;
+  padding-top: .5em;
+}
+
+.title {
+  font-size: 26px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+section {
+  width: 100%;
+  margin: auto;
+  padding-left: 3em;
+  margin-bottom: 3em;
+}
+
+.one {
+  background: white;
+  margin-top: 20em;
+}
+
+.one .s-title {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.one .s-title p {
+  margin-top: .7em;
+}
+
+.one .card {
+  -webkit-box-shadow: 0px 0px 20px -4px #000000;
+  box-shadow: 0px 0px 20px -4px #000000;
+  width: 255px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one .card .desc {
+  padding: .7em;
+}
+
+.one .card img {
+  background: #eee;
+}
+
+.one .card p {
+  font-size: 20px;
+}
+
+.one .card .price-tag {
+  margin-left: 80%;
+  color: #56B280;
+}
+
+.cards {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 24% 24% 24% 24%;
+      grid-template-columns: 24% 24% 24% 24%;
+  padding-left: 5em;
+}
+
+.cards .card {
+  margin-bottom: 1.9em;
+  border-radius: 8px;
+}
+
+.two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F7F8FA;
+  padding: 9em;
+  padding-top: 11em;
+  padding-bottom: 11em;
+  margin: auto;
+}
+
+.two small {
+  color: #56B280;
+}
+
+.two .intro {
+  margin-bottom: 2em;
+}
+
+.two .contents {
+  margin-bottom: 2em;
+}
+
+.two .contents p {
+  margin-bottom: .4em;
+}
+
+.two .btn {
+  background: #56B280;
+  color: white;
+  width: 180px;
+  padding-left: 2.5em;
+  height: 40px;
+  border-radius: 5px;
+  padding-top: .5em;
+}
+
+.two .right img {
+  width: 400px;
+}
+
+.three {
+  background: rgba(86, 178, 128, 0.1);
+  padding: 9em;
+}
+
+.three .s-title {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.three .s-title .title {
+  color: #0B254B;
+}
+
+.three .s-title p {
+  color: #5E6E89;
+  margin-top: .7em;
+}
+
+.three .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.three .cards .card {
+  -webkit-box-shadow: 0px 0px 10px -4px #000000;
+  box-shadow: 0px 0px 10px -4px #000000;
+  height: 300px;
+  width: 400px;
+  background: white;
+  text-align: center;
+}
+
+.three .cards .card .stars {
+  margin-top: .7em;
+  margin-bottom: .4em;
+}
+
+.three .cards .card .content small {
+  display: block;
+  margin-top: .7em;
+  font-size: 15px;
+}
+
+.four {
+  padding: 9em;
+}
+
+.four .s-title {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.four .s-title .title {
+  color: #0B254B;
+}
+
+.four .s-title p {
+  color: #5E6E89;
+  margin-top: .7em;
+}
+
+.four .cards {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 24% 24% 24% 24%;
+      grid-template-columns: 24% 24% 24% 24%;
+  padding-left: 5em;
+}
+
+.four .cards .card {
+  margin-bottom: 1.9em;
+  border-radius: 8px;
+}
+
+.four .cards .card {
+  -webkit-box-shadow: 0px 0px 20px -4px #000000;
+  box-shadow: 0px 0px 20px -4px #000000;
+  width: 255px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four .cards .card .desc {
+  padding: .7em;
+}
+
+.four .cards .card img {
+  background: #eee;
+}
+
+.four .cards .card p {
+  font-size: 20px;
+}
+
+.four .cards .card .price-tag {
+  margin-left: 80%;
+  color: #56B280;
+}
+
+.four .cards .card {
+  margin-right: 1em !important;
+}
+
+.title {
+  font-size: 39px;
+}
+
+footer {
+  background: black;
+  padding: 9em;
+}
+
+footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3em;
+}
+
+footer .right ul li p {
+  margin-bottom: .8em;
+}
+
+footer .left {
+  width: 320px;
+}
+
+footer .left p {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer .contents {
+  padding-top: .9em;
+  border-top: 4px solid gray;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 55%;
+      grid-template-columns: 40% 55%;
+  width: 93%;
+}
+
+.f-title {
+  color: #56B280;
+  font-size: 22px;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=main.css.map */

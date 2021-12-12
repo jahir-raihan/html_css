@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.main {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 1400px;
+  margin: auto;
+}
+
+.main header {
+  background: white;
+  text-align: center;
+}
+
+.main nav {
+  padding: .4em;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main nav .logo {
+  padding-top: .2em;
+}
+
+.main nav .nav-links ul {
+  padding-top: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main nav .nav-links ul li {
+  margin-right: 2.9em;
+}
+
+.main nav .nav-links ul li a {
+  font-size: 16px;
+  color: black;
+}
+
+.main nav .nav-links ul a:hover {
+  color: #56B280;
+}
+
+.main nav .cart-profile {
+  padding-top: .5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main nav .cart-profile img {
+  width: 25px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.one {
+  width: 100%;
+  margin: 5em auto;
+  padding-left: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.one .left {
+  width: 600px;
+  text-align: center;
+}
+
+.one .left p .free-shiping {
+  display: block;
+  margin-top: 1em;
+  color: #56B280;
+}
+
+.one .right {
+  padding-left: 2em;
+  width: 95%;
+}
+
+.one .right .first-radio {
+  margin-left: 1.1em;
+}
+
+.one .right .middle {
+  margin: 2em auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 50%;
+      grid-template-columns: 30% 50%;
+}
+
+.one .right .middle .m-left .quintity .lebal {
+  font-size: 20px;
+  margin-bottom: .8em;
+}
+
+.one .right .middle .m-left .quintity .q-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70px;
+  border: 2px solid #56B280;
+}
+
+.one .right .middle .m-left .quintity .q-btn span {
+  display: block;
+}
+
+.one .right .middle .m-right .second {
+  border: .5px solid #656565;
+  border-radius: 8px;
+  padding: .9em;
+  margin: 1em auto;
+}
+
+.one .right .middle .m-right .second .select {
+  margin-left: .7em;
+  border: 1px solid #656565;
+}
+
+.one .right .middle .m-right .second .radio {
+  margin: 1em auto;
+  color: #656565;
+}
+
+.one .right .middle .m-right .second p {
+  color: #818181;
+}
+
+.one .right .title {
+  font-size: 26px;
+}
+
+.one .right .btn {
+  padding-left: 6em;
+  background: #56B280;
+  color: white;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 40px;
+  margin: 2em auto;
+  padding-top: .59em;
+}
+
+.one .right .btn img {
+  margin-right: .7em;
+  width: 20px;
+  height: 20px;
+}
+
+.one .right .btn p {
+  margin-left: .7em;
+}
+
+.bottom {
+  border: .4px solid #818181;
+  width: 80%;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.bottom span {
+  font-weight: bold;
+  margin-right: .3em;
+}
+
+footer {
+  background: black;
+  padding: 9em;
+}
+
+footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3em;
+}
+
+footer .right ul li p {
+  margin-bottom: .8em;
+}
+
+footer .left {
+  width: 320px;
+}
+
+footer .left p {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer .contents {
+  padding-top: .9em;
+  border-top: 4px solid gray;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 55%;
+      grid-template-columns: 40% 55%;
+  width: 93%;
+}
+
+.f-title {
+  color: #56B280;
+  font-size: 22px;
+  margin-bottom: 1em;
+}
+
+.price-tag {
+  color: #56B280;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=product.css.map */

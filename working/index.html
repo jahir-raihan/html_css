@@ -1,0 +1,13 @@
+<p id="demo">Hello there</p>
+
+<button onclick="userAction()">Get Data</button>
+
+<script>
+const request = new XMLHttpRequest();
+request.open('GET', 'https://apitestdjangoapp.herokuapp.com');
+
+request.send();
+console.log(request.response)
+
+
+</script>
