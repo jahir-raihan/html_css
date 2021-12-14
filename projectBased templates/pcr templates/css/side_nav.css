@@ -72,7 +72,7 @@ header .nav .nav-right .profile-icon img {
   margin-right: 2em;
 }
 
-header .nav .nav-right .notification-icon {
+.notification-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +81,7 @@ header .nav .nav-right .notification-icon {
           align-items: center;
 }
 
-header .nav .nav-right .notification-icon .n-number {
+.notification-icon .n-number {
   background: red;
   width: 18px;
   height: 18px;
@@ -92,9 +92,23 @@ header .nav .nav-right .notification-icon .n-number {
   margin-right: 1em;
 }
 
-header .nav .nav-right .notification-icon img {
+.notification-icon img {
   margin-top: .7em;
   width: 25px;
+}
+
+#n-icon-2 {
+  display: none;
+  margin-right: .2em;
+}
+
+.nav-right-noti-toggle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .toggle {

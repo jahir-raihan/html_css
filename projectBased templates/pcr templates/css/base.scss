@@ -177,6 +177,7 @@
 }
 
 
+
 // write post end
 
 // media querys
@@ -190,6 +191,20 @@
 
     .nav-right{
         display:none !important;
+    }
+    #n-icon-2{
+        display: unset !important;
+        margin-right:.2em !important;
+
+        .notification-icon{
+            .n-number{
+                margin-right:.6em !important;
+            }
+        }
+    }
+    .nav-right-noti-toggle-section{
+        display: flex !important;
+
     }
     .toggle{
         display:unset;

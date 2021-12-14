@@ -153,6 +153,18 @@
   .nav-right {
     display: none !important;
   }
+  #n-icon-2 {
+    display: unset !important;
+    margin-right: .2em !important;
+  }
+  #n-icon-2 .notification-icon .n-number {
+    margin-right: .6em !important;
+  }
+  .nav-right-noti-toggle-section {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
   .toggle {
     display: unset;
   }
