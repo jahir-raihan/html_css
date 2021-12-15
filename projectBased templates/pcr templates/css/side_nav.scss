@@ -68,33 +68,7 @@ header{
                 
                 
             }
-            // .notification-icon{
-            //     display: flex;
-                
-                
-            //     align-items: center;
-            //     .n-number{
-                    
-                    
-            //         background:red;
-            //         width:18px;
-            //         height:18px;
-                    
-            //         text-align: center;
-            //         border-radius: 50%;
-            //         font-size: 12px;
-            //         margin-bottom: 1.5em;
-            //         margin-right:1em;
-                    
-                    
-            //     }
-            //     img{
-                    
-            //         margin-top:.7em;
-                    
-            //         width:25px;
-            //     }
-            // }
+         
         }
 
 
@@ -102,8 +76,8 @@ header{
 }
 .notification-icon{
     display: flex;
-    
-    
+    position:relative;
+    cursor: pointer;
     align-items: center;
     .n-number{
         
@@ -131,6 +105,66 @@ header{
 #n-icon-2{
     display: none;
     margin-right:.2em;
+}
+
+.notification-toggle{
+    height:90vh;
+    background:#fff;
+    position:absolute;
+    margin-top:1em;
+    right:40px;
+    width:300px;
+    -webkit-box-shadow: -1px 3px 6px -3px rgba(0,0,0,0.84); 
+    box-shadow: -1px 3px 6px -3px rgba(0,0,0,0.84);
+    border-radius: 4px;
+    overflow: scroll;
+    padding:1em;
+
+    .notification-header{
+        margin-bottom:.5em;
+        font-weight: bold;
+        color:black;
+        border-bottom:.5px solid rgba(0, 0, 0, 0.356);
+        
+    }
+    .link{
+
+        display: flex;
+        padding:.2em;
+        
+        border-bottom:.1px solid rgba(0, 0, 0, 0.356);
+        
+        
+        .link-left{
+            margin-right:.5em;
+            img{
+                display:block;
+                border-radius: 50%;
+                width:40px;
+            }
+        }
+        .link-right{
+            .n-u-name{
+                font-weight: bold;
+            }
+            p{
+                color:black;
+                font-size:.8em;
+            }
+            small{
+                font-size:.6em;
+            }
+        }
+    }
+    .link:hover{
+        background:rgba(230, 230, 230, 0.767);
+        border:none;
+        transition-duration: .2s;
+        -webkit-box-shadow: -1px 3px 6px -3px rgba(0,0,0,0.84); 
+        box-shadow: -1px 3px 6px -3px rgba(0,0,0,0.84);
+        border-radius: 2px;
+    }
+    
 }
 
 .nav-right-noti-toggle-section{

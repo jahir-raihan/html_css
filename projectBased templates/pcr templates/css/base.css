@@ -149,6 +149,13 @@
   }
 }
 
+@media only screen and (max-width: 315px) {
+  .notification-toggle {
+    width: 250px;
+    top: 70px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .nav-right {
     display: none !important;
@@ -159,6 +166,9 @@
   }
   #n-icon-2 .notification-icon .n-number {
     margin-right: .6em !important;
+  }
+  .notification-toggle {
+    right: 10px;
   }
   .nav-right-noti-toggle-section {
     display: -webkit-box !important;

@@ -110,3 +110,13 @@ function likebutton(){
 //     var like = document.getElementById('like-btn' + postid);
 //     like.classList.toggle('like-btn-toggle')
 // }
+function show_notification(){
+    var obj = document.getElementById('notification-toggle1');
+    obj.classList.toggle('d-none');
+
+}
+function show_notification2(){
+    var obj = document.getElementById('notification-toggle2');
+    obj.classList.toggle('d-none');
+
+}
