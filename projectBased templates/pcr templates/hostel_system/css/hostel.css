@@ -195,4 +195,37 @@ small {
   color: black;
   text-align: center;
 }
+
+.paid-unpaid {
+  color: #ff7b00;
+}
+
+.message {
+  border-radius: 4px;
+  color: white;
+  min-width: 500px;
+  max-width: 500px;
+  margin: 0em auto;
+  margin-top: 2em;
+  padding: .6em;
+  font-size: .8em;
+  background: #00c3ff;
+}
+
+.disabled {
+  background: #e2e2e2;
+}
+
+.disabled:hover {
+  background: #e2e2e2;
+  cursor: unset;
+}
+
+.demo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 30% 60%;
+  
+}
 /*# sourceMappingURL=hostel.css.map */

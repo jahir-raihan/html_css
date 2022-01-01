@@ -201,3 +201,32 @@ small{
     text-align: center;
     
 }
+
+.paid-unpaid{
+    color:rgb(255, 123, 0);
+}
+.message{
+    border-radius: 4px;
+    color:rgb(255, 255, 255);
+    min-width:500px;
+    max-width:500px;
+    margin:0em auto;
+    margin-top:2em;
+    padding:.6em;
+    font-size: .8em;
+    background:rgb(0, 195, 255);
+}
+
+.disabled{
+    background:#e2e2e2;
+}
+.disabled:hover{
+    background:#e2e2e2;
+    cursor:unset;
+}
+
+
+.demo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
