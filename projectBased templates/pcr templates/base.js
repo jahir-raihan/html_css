@@ -20,11 +20,6 @@ function routineF(){
     ele.classList.toggle('r-disable');
 }
 
-function rbg(){
-    var element = document.getElementById('result-i-t');
-    element.classList.toggle('t-bg')
-}
-
 function ebg(){
     var ele = document.getElementById('exam-i-t');
     ele.classList.toggle('t-bg')
@@ -34,6 +29,11 @@ function myFunction() {
             
     var element = document.getElementById("toggle-nav");
     element.classList.toggle("disable");
+}
+
+function rbg(){
+    var element = document.getElementById('result-i-t');
+    element.classList.toggle('t-bg')
 }
 
 
@@ -50,11 +50,6 @@ function sideroutineF(){
     
     ele.classList.toggle('side-disable');
 }
-
-
-
-
-
 
 
 

@@ -129,7 +129,7 @@ button {
 }
 
 @media only screen and (max-width: 575px) {
-  .create-post-body {
+  .create-post-body , .dashboard-contents, .links{
     width: 100% !important;
     min-width: unset !important;
   }
