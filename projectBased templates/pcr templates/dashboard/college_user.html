@@ -12,6 +12,7 @@
    
     <title>Base template</title>
     <script src="/base.js"></script>
+    <script src="dashboard.js"></script>
 </head>
 <body>
     
@@ -277,7 +278,7 @@
                     <div class="update-hostel-data">
     
                         <p class="d-c-title-u-h-data">Add a new teacher:</p>
-                        <button class="d-c-btn"><a href="#">Add teacher</a></button>
+                        <button class="d-c-btn" onclick="on()"><a href="#">Add teacher</a></button>
 
                     </div>
                     <div class="line"></div>
@@ -378,7 +379,7 @@
                     <div class="update-hostel-data">
     
                         <p class="d-c-title-u-h-data">Add a student:</p>
-                        <button class="d-c-btn"><a href="#">Add Student</a></button>
+                        <button class="d-c-btn" onclick="on1()"><a href="#">Add Student</a></button>
 
                     </div>
                     <div class="line"></div>
@@ -506,7 +507,209 @@
             </div>
 
                 
+            <div id="overlay1" > 
 
+                <div id="overlay-content">
+                    <div class="create-post-body overlay-body">
+
+                        <div class="search-top">
+                            <div class="s-top-logo">
+                                <img draggable="false" src="/images/Logo.jpg" alt="">
+                            </div>
+
+                            <div class="s-top-titles">
+                                <p class="college-name">Compact Polytechinc Institute</p>
+                                <p class="info">Add a Teacher</p>
+                                
+                            </div>
+                            <div class="line"></div>
+                            
+
+                        </div>
+                        <form method="post" action="">
+
+                            <div class="search-middle">
+                                
+                                    <div class="input">
+                                        <span>Name :</span> <input name="name" placeholder="Enter full name . . ."  type="text">
+                                    </div>
+                                    <div class="input">
+                                        <span>Education :</span> <input name="education" placeholder="Ex: BSC in CSE " type="text">
+                                    </div>
+                                    <div class="input">
+                                        <span>Number :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Email :</span> <input name="email" placeholder="Enter valid email . . ." type="email">
+                                    </div>
+                                    <div class="input">
+                                        <span>Password :</span> <input name="password1" placeholder="Enter password . . ." type="password">
+                                    </div>
+                                    <div class="input">
+                                        <span>Confirm <br> password :</span> <input name="password2" placeholder="Confirm password . . ." type="password">
+                                    </div>
+
+                                
+                            </div>
+
+                            <div class="search-bottom">
+                                
+                                <button type="submit">Submit</button>
+                            </div>
+
+                        </form>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="cross" onclick="off()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.946" height="20.534" viewBox="0 0 14.946 14.534">
+                        <g id="Group_164" data-name="Group 164" transform="translate(-7724.46 -7932.419)">
+                          <line id="Line_55" data-name="Line 55" x2="12.867" y2="12.372" transform="translate(7725.5 7933.5)" fill="none" stroke="#000" stroke-width="2"/>
+                          <line id="Line_56" data-name="Line 56" y1="12.372" x2="12.867" transform="translate(7725.5 7933.5)" fill="none" stroke="#000" stroke-width="2"/>
+                        </g>
+                      </svg>
+                  </div>
+            </div>
+            <div id="overlay2" > 
+
+                <div id="overlay-content">
+                    <div class="create-post-body overlay-body">
+
+                        <div class="search-top">
+                            <div class="s-top-logo">
+                                <img draggable="false" src="/images/Logo.jpg" alt="">
+                            </div>
+
+                            <div class="s-top-titles">
+                                <p class="college-name">Compact Polytechinc Institute</p>
+                                <p class="info">Add a Student</p>
+                                
+                            </div>
+                            <div class="line"></div>
+                            
+
+                        </div>
+                        <form  action="">
+
+                            <div class="search-middle">
+                                
+                                    <div class="input">
+                                        <span>Name :</span> <input name="name" placeholder="Enter full name . . ."  type="text">
+                                    </div>
+                                   <div class="input">
+                                        <span>Email :</span> <input name="email" placeholder="Enter valid email . . ." type="email">
+                                    </div>
+                                    <div class="input">
+                                        <span>Number :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Roll :</span> <input name="phone" placeholder="Enter roll number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Registration :</span> <input name="phone" placeholder="Enter registration number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Semester :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Department :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Gender :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Religion :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    <div class="input">
+                                        <span>Image :</span> <input name="phone" placeholder="Enter contact number . . ." type="number">
+                                    </div>
+                                    
+                                    <div class="input">
+                                        <span>Password :</span> <input name="password1" placeholder="Enter password . . ." type="password">
+                                    </div>
+                                    <div class="input">
+                                        <span>Confirm <br> password :</span> <input name="password2" placeholder="Confirm password . . ." type="password">
+                                    </div>
+
+                                
+                            </div>
+
+                            <div class="search-bottom">
+                                
+                                <button type="submit">Submit</button>
+                            </div>
+
+                        </form>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="cross" onclick="off1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.946" height="20.534" viewBox="0 0 14.946 14.534">
+                        <g id="Group_164" data-name="Group 164" transform="translate(-7724.46 -7932.419)">
+                          <line id="Line_55" data-name="Line 55" x2="12.867" y2="12.372" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                          <line id="Line_56" data-name="Line 56" y1="12.372" x2="12.867" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                        </g>
+                      </svg>
+                  </div>
+            </div>
+            <div id="overlay3" > 
+
+                <div id="overlay-content">
+                    <div class="create-post-body overlay-body">
+
+                        <div class="search-top">
+                            <div class="s-top-logo">
+                                <img draggable="false" src="/images/Logo.jpg" alt="">
+                            </div>
+
+                            <div class="s-top-titles">
+                                <p class="college-name">Compact Polytechinc Institute</p>
+                                <p class="info">Confirmation</p>
+                                
+                            </div>
+                            <div class="line"></div>
+                            
+
+                        </div>
+                        <form  action="">
+
+                            <div class="search-middle">
+                                    <small class="confirm-text">**Confirmation code has been sent to your email.</small>
+                                    <div class="input">
+                                        <span>Enter code :</span> <input name="name" placeholder="Enter code . . ."  type="password">
+                                    </div>
+                                   
+                                  
+                                
+                            </div>
+
+                            <div class="search-bottom">
+                                
+                                <button type="submit">Submit</button>
+                            </div>
+
+                        </form>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="cross" onclick="off1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.946" height="20.534" viewBox="0 0 14.946 14.534">
+                        <g id="Group_164" data-name="Group 164" transform="translate(-7724.46 -7932.419)">
+                          <line id="Line_55" data-name="Line 55" x2="12.867" y2="12.372" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                          <line id="Line_56" data-name="Line 56" y1="12.372" x2="12.867" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                        </g>
+                      </svg>
+                  </div>
+            </div>
         </div>
 
         <div class="right">
@@ -523,6 +726,7 @@
 
        
     </div>
+
 
 
     <script src="/base.js"></script>
