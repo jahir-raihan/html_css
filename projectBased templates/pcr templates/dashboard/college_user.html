@@ -543,10 +543,13 @@
                                         <span>Email :</span> <input name="email" placeholder="Enter valid email . . ." type="email">
                                     </div>
                                     <div class="input">
+                                        <span>Image :</span> <input class="image-input" name="image" placeholder="Choose image . . ." type="file">
+                                    </div>
+                                    <div class="input">
                                         <span>Password :</span> <input name="password1" placeholder="Enter password . . ." type="password">
                                     </div>
                                     <div class="input">
-                                        <span>Confirm <br> password :</span> <input name="password2" placeholder="Confirm password . . ." type="password">
+                                        <span>Confirm <br> password :</span> <input hidden name="password2" placeholder="Confirm password . . ." type="password">
                                     </div>
 
                                 
@@ -710,6 +713,59 @@
                       </svg>
                   </div>
             </div>
+            <div id="overlay4" > 
+
+                <div id="overlay-content">
+                    <div class="create-post-body overlay-body">
+
+                        <div class="search-top">
+                            <div class="s-top-logo">
+                                <img draggable="false" src="/images/Logo.jpg" alt="">
+                            </div>
+
+                            <div class="s-top-titles">
+                                <p class="college-name">Compact Polytechinc Institute</p>
+                                <p class="info">Authenticate</p>
+                                
+                            </div>
+                            <div class="line"></div>
+                            
+
+                        </div>
+                        <form  action="">
+
+                            <div class="search-middle">
+                                    <small class="confirm-text">**Confirm your password</small>
+                                    <div class="input">
+                                        <span>Enter password :</span> <input name="password" placeholder="Enter password . . ."  type="password">
+                                        <input  hidden type="email" name="email" value='{{request.user.email}}'> 
+                                    </div>
+                                   
+                                  
+                                
+                            </div>
+
+                            <div class="search-bottom">
+                                
+                                <button type="submit">Submit</button>
+                            </div>
+
+                        </form>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="cross" onclick="off1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.946" height="20.534" viewBox="0 0 14.946 14.534">
+                        <g id="Group_164" data-name="Group 164" transform="translate(-7724.46 -7932.419)">
+                          <line id="Line_55" data-name="Line 55" x2="12.867" y2="12.372" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                          <line id="Line_56" data-name="Line 56" y1="12.372" x2="12.867" transform="translate(7725.5 7933.5)" fill="none" stroke="#fff" stroke-width="3"/>
+                        </g>
+                      </svg>
+                  </div>
+            </div>
         </div>
 
         <div class="right">
@@ -724,7 +780,7 @@
 
         </div>
 
-       
+
     </div>
 
 
