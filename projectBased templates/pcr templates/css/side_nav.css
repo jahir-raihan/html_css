@@ -496,16 +496,6 @@ ul {
   box-shadow: -1px 3px 6px -3px rgba(0, 0, 0, 0.84);
   border-radius: 4px;
 }
-.create-post-body {
-  background: white;
-  min-width: 500px;
-  max-width: 500px;
-  padding: .6em;
-  margin: 2em auto;
-  -webkit-box-shadow: -1px 3px 6px -3px rgba(0, 0, 0, 0.84);
-  box-shadow: -1px 3px 6px -3px rgba(0, 0, 0, 0.84);
-  border-radius: 4px;
-}
 
 .main .post-body .post-head, .main .post-body .create-post-head, .main .create-post-body .post-head, .main .create-post-body .create-post-head {
   -webkit-box-align: center;
