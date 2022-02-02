@@ -11,8 +11,9 @@ p {
 }
 
 .receipt {
-  width: 600px;
+  width: 550px;
   margin: auto;
+  margin-top: 1em;
   border: 1px solid #172577;
 }
 
@@ -24,15 +25,15 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 2.5em;
 }
 
 .receipt .receipt-header .r-header-info .r-h-left img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .receipt .receipt-header .r-header-info .r-h-right {
@@ -41,20 +42,21 @@ p {
 
 .receipt .receipt-header .r-header-info .r-h-right h1, .receipt .receipt-header .r-header-info .r-h-right h2, .receipt .receipt-header .r-header-info .r-h-right p {
   color: #172577;
+  margin-bottom: .1em;
 }
 
 .receipt .receipt-header .r-header-info .r-h-right h2 {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: normal;
 }
 
 .receipt .receipt-header .r-header-info .r-h-right h1 {
-  font-size: 17px;
+  font-size: 14px;
   letter-spacing: 1.2px;
 }
 
 .receipt .receipt-header .r-header-info .r-h-right p {
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .receipt .receipt-header .money-receipt-title {
@@ -65,11 +67,12 @@ p {
   border-bottom: 1px solid #172577;
   font-weight: bold;
   color: #172577;
+  font-size: 11px;
 }
 
 .receipt .receipt-header .receipient-details {
   padding: 0 2.5em;
-  margin-top: 1em;
+  margin-top: .5em;
 }
 
 .receipt .receipt-header .receipient-details .inputs {
@@ -84,7 +87,7 @@ p {
 }
 
 .receipt .receipt-header .receipient-details .inputs .left {
-  margin-bottom: .3em;
+  margin-bottom: .1em;
   color: #172577;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,34 +99,31 @@ p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 11px;
 }
 
 .receipt .receipt-header .receipient-details .inputs .left .i-label1 {
-  padding-top: .2em;
+  padding-top: .1em;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.receipt .receipt-header .receipient-details .inputs .left .uuid p {
-  font-size: 10px;
-}
-
 .receipt .receipt-header .receipient-details .inputs .left .i-id1 {
-  margin-left: .5em;
-  width: 200px;
+  margin-left: .3em;
+  width: 180px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .left .i-id2 {
-  margin-left: .5em;
-  width: 162px;
+  margin-left: .3em;
+  width: 149px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .left .i-id3 {
-  margin-left: .5em;
-  width: 223px;
+  margin-left: .3em;
+  width: 211px;
   border-bottom: 1px dotted #172577;
 }
 
@@ -140,24 +140,24 @@ p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding-top: .2em;
+  padding-top: .1em;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id4 {
-  margin-left: .5em;
-  width: 147px;
+  margin-left: .3em;
+  width: 138px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id5 {
-  margin-left: .5em;
-  width: 136px;
+  margin-left: .3em;
+  width: 126px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id6 {
-  margin-left: .5em;
-  width: 120px;
+  margin-left: .3em;
+  width: 109px;
   border-bottom: 1px dotted #172577;
 }
 
@@ -187,12 +187,20 @@ p {
       grid-template-columns: 15% 60% 25%;
 }
 
-.receipt .receipt-body .r-body-header .r-body-header-row div {
-  text-align: center;
-}
-
 .receipt .receipt-body .r-body-header .r-body-header-row .r-one, .receipt .receipt-body .r-body-header .r-body-header-row .r-two {
   border-right: 1px solid white;
+}
+
+.receipt .receipt-body .r-body-header .r-body-header-row .r-one p, .receipt .receipt-body .r-body-header .r-body-header-row .r-two p {
+  text-align: center;
+  padding-top: .09em;
+  font-size: 11px;
+}
+
+.receipt .receipt-body .r-body-header .r-body-header-row .r-three p {
+  font-size: 11px;
+  text-align: center;
+  padding-top: .09em;
 }
 
 .receipt .receipt-body .r-body-row {
@@ -203,9 +211,13 @@ p {
       grid-template-columns: 15% 60% 25%;
 }
 
+.receipt .receipt-body .r-body-row p {
+  font-size: 10px !important;
+}
+
 .receipt .receipt-body .r-body-row .r-one, .receipt .receipt-body .r-body-row .r-three {
   text-align: center;
-  padding: .2em;
+  padding: em;
   padding-top: .3em;
 }
 
@@ -216,7 +228,7 @@ p {
 
 .receipt .receipt-body .r-body-row .r-one .mark {
   position: absolute;
-  right: 20px;
+  right: 17px;
   top: 0;
 }
 
@@ -229,7 +241,7 @@ p {
 
 .receipt .receipt-body .r-body-row .small {
   color: #172577;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .receipt .receipt-body .r-b-r-last {
@@ -250,10 +262,13 @@ p {
 
 .receipt .receipt-body .r-body-footer-row .r-two {
   border-right: 1px solid #172577;
-  padding: .2em;
   padding-top: .3em;
   padding-right: .5em;
   text-align: right;
+}
+
+.receipt .receipt-body .r-body-footer-row .r-two p {
+  font-size: 11px;
 }
 
 .receipt .receipt-body .r-body-footer-row .r-three {
@@ -262,11 +277,21 @@ p {
   padding-top: .3em;
 }
 
+.receipt .receipt-body .r-body-footer-row .r-three p {
+  font-size: 11px;
+}
+
 .receipt .receipt-body .r-body-amount-in-text {
-  padding: .7em .2em;
+  padding: .2em;
+  padding-bottom: .5em;
+  padding-top: .4em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.receipt .receipt-body .r-body-amount-in-text p {
+  font-size: 11px;
 }
 
 .receipt .receipt-body .r-body-amount-in-text .r-one, .receipt .receipt-body .r-body-amount-in-text .r-three {
@@ -281,17 +306,17 @@ p {
 
 .receipt .receipt-body .r-body-amount-in-text .r-one {
   margin-left: 1em;
-  padding-top: .3em;
+  padding-top: .2em;
 }
 
 .receipt .receipt-body .r-body-amount-in-text .r-two {
-  margin-left: .5em;
-  width: 330px;
+  margin-left: .3em;
+  width: 300px;
   border-bottom: .5px dotted #172577;
 }
 
 .receipt .r-container {
-  padding: 1em 0;
+  padding: .5em 0;
 }
 
 .receipt .r-container .receipt-footer {
@@ -313,6 +338,7 @@ p {
 }
 
 .receipt .r-container .receipt-footer p {
+  font-size: 11px;
   color: #172577;
   text-align: center;
 }
