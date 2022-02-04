@@ -11,7 +11,7 @@ p {
 }
 
 .receipt {
-  width: 550px;
+  width: 500px;
   margin: auto;
   margin-top: 1em;
   border: 1px solid #172577;
@@ -28,12 +28,12 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 2.5em;
+  padding: 0 1.5em;
 }
 
 .receipt .receipt-header .r-header-info .r-h-left img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 
 .receipt .receipt-header .r-header-info .r-h-right {
@@ -67,19 +67,22 @@ p {
   border-bottom: 1px solid #172577;
   font-weight: bold;
   color: #172577;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .receipt .receipt-header .receipient-details {
-  padding: 0 2.5em;
+  padding: 0 1.5em;
   margin-top: .5em;
 }
 
+.receipt .receipt-header .receipient-details p {
+  font-size: 10px !important;
+}
+
 .receipt .receipt-header .receipient-details .inputs {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 59% 39%;
-      grid-template-columns: 59% 39%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   gap: 2%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -111,29 +114,27 @@ p {
 
 .receipt .receipt-header .receipient-details .inputs .left .i-id1 {
   margin-left: .3em;
-  width: 180px;
+  width: 160px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .left .i-id2 {
   margin-left: .3em;
-  width: 149px;
+  width: 135px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .left .i-id3 {
   margin-left: .3em;
-  width: 211px;
+  width: 183px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right {
+  margin-left: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-label1 {
@@ -145,24 +146,24 @@ p {
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id4 {
   margin-left: .3em;
-  width: 138px;
+  width: 149px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id5 {
   margin-left: .3em;
-  width: 126px;
+  width: 138px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-header .receipient-details .inputs .right .i-id6 {
   margin-left: .3em;
-  width: 109px;
+  width: 124px;
   border-bottom: 1px dotted #172577;
 }
 
 .receipt .receipt-body {
-  padding: 0 2.5em;
+  padding: 0 1.5em;
   margin-top: .5em;
 }
 
@@ -194,11 +195,11 @@ p {
 .receipt .receipt-body .r-body-header .r-body-header-row .r-one p, .receipt .receipt-body .r-body-header .r-body-header-row .r-two p {
   text-align: center;
   padding-top: .09em;
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .receipt .receipt-body .r-body-header .r-body-header-row .r-three p {
-  font-size: 11px;
+  font-size: 9px;
   text-align: center;
   padding-top: .09em;
 }
@@ -212,13 +213,12 @@ p {
 }
 
 .receipt .receipt-body .r-body-row p {
-  font-size: 10px !important;
+  font-size: 8px !important;
 }
 
 .receipt .receipt-body .r-body-row .r-one, .receipt .receipt-body .r-body-row .r-three {
   text-align: center;
-  padding: em;
-  padding-top: .3em;
+  padding-top: .2em;
 }
 
 .receipt .receipt-body .r-body-row .r-one {
@@ -229,6 +229,7 @@ p {
 .receipt .receipt-body .r-body-row .r-one .mark {
   position: absolute;
   right: 17px;
+  font-size: 13px;
   top: 0;
 }
 
@@ -268,7 +269,7 @@ p {
 }
 
 .receipt .receipt-body .r-body-footer-row .r-two p {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .receipt .receipt-body .r-body-footer-row .r-three {
@@ -278,7 +279,7 @@ p {
 }
 
 .receipt .receipt-body .r-body-footer-row .r-three p {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .receipt .receipt-body .r-body-amount-in-text {
@@ -291,7 +292,7 @@ p {
 }
 
 .receipt .receipt-body .r-body-amount-in-text p {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .receipt .receipt-body .r-body-amount-in-text .r-one, .receipt .receipt-body .r-body-amount-in-text .r-three {
@@ -311,7 +312,7 @@ p {
 
 .receipt .receipt-body .r-body-amount-in-text .r-two {
   margin-left: .3em;
-  width: 300px;
+  width: 320px;
   border-bottom: .5px dotted #172577;
 }
 
@@ -321,7 +322,7 @@ p {
 
 .receipt .r-container .receipt-footer {
   margin-top: 1em;
-  padding: 0 2.5em;
+  padding: 0 1.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,7 +339,7 @@ p {
 }
 
 .receipt .r-container .receipt-footer p {
-  font-size: 11px;
+  font-size: 9px;
   color: #172577;
   text-align: center;
 }
