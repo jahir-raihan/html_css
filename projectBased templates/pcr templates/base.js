@@ -20,6 +20,7 @@ function routineF(){
     ele.classList.toggle('r-disable');
 }
 
+
 function ebg(){
     var ele = document.getElementById('exam-i-t');
     ele.classList.toggle('t-bg')
