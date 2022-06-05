@@ -9,7 +9,7 @@ function resultF(){
     rit.classList.remove('t-bg');
     ele.classList.toggle('r-disable');
 }
-
+document.getElementsByName
 
 function routineF(){
     var ele = document.getElementById('e-semesters');

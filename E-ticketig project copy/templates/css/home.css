@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #ffe62c;
+}
+
+header nav {
+  width: 90%;
+  border: 1px solid red;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .left .logo img {
+  width: 180px;
+}
+
+header nav .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .right ul li {
+  margin-left: .5em;
+  padding: .5em;
+}
+
+header nav .right ul li a {
+  color: black;
+  font-weight: 500;
+}
+
+header nav .right ul li:hover {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  cursor: pointer;
+  border-bottom: 3px solid rgba(54, 138, 255, 0.973);
+}
+
+header nav .right ul li:hover a {
+  color: #3578ff;
+}
+
+.responsive {
+  display: none;
+}
+
+.responsive .link-menu {
+  display: none;
+}
+/*# sourceMappingURL=home.css.map */

@@ -16,12 +16,20 @@ body{
         padding:1em;
         background:white;
         width:300px;
-        height:300px;
+        height:fit-content;
         margin:auto;
         text-align: center;
-        padding-top:5em;
         
-
+        
+        .logo-body{
+            .logo{
+                img{
+                    width:70px;
+                    height:70px;
+                    border-radius:50%;
+                }
+            }
+        }
     }
     
     .email-input{
@@ -81,41 +89,24 @@ img{
 .form-body{
     position: relative;
 }
-
-.circle-body{
-    width:230px;
-    height:240px;
-    top:-16em;
-    background:#4891ff;
-    position:absolute;
-    margin-left:2.2em;
+.logo-text{
     
-    border-radius: 50%;
-    
+    font-size:17px;
 }
 
-.circle-body-image{
-    background:white;
-    width:180px;
-    height:180px;
-    position: absolute;
-    right:26px;
-    top:40px;
-    border-radius: 50%;
-   
-    .c-img{
-        width:100%;
-        height:100%;
-        border-radius: 50%;
-    }    
-}
+
+
 
 
 
 
 .heading{
-    h2{
+    width:fit-content;
+    margin:auto;
+    p{
         color:#4b4b4b;
+        width:50px;
+        border-bottom: 1px solid black;
     }
 }
 button{

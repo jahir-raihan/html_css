@@ -14,10 +14,17 @@ body {
   padding: 1em;
   background: white;
   width: 300px;
-  height: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: auto;
   text-align: center;
-  padding-top: 5em;
+}
+
+.container .main .logo-body .logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .container .email-input {
@@ -73,34 +80,21 @@ img {
   position: relative;
 }
 
-.circle-body {
-  width: 230px;
-  height: 240px;
-  top: -16em;
-  background: #4891ff;
-  position: absolute;
-  margin-left: 2.2em;
-  border-radius: 50%;
+.logo-text {
+  font-size: 17px;
 }
 
-.circle-body-image {
-  background: white;
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  right: 26px;
-  top: 40px;
-  border-radius: 50%;
+.heading {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }
 
-.circle-body-image .c-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-.heading h2 {
+.heading p {
   color: #4b4b4b;
+  width: 50px;
+  border-bottom: 1px solid black;
 }
 
 button {
