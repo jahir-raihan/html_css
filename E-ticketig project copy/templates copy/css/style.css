@@ -1,0 +1,104 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+table {
+  border-spacing: 4px;
+}
+
+table td {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+table tr {
+  margin-top: .5em !important;
+}
+
+table .not-occupied:hover {
+  background: #0ca9f8;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #bababa;
+  -webkit-box-shadow: -1px 0px 15px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: -1px 0px 15px 1px rgba(0, 0, 0, 0.12);
+}
+
+.price-table {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.price-table th {
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+}
+
+.price-table td {
+  width: 100px;
+}
+
+.price-table .s-name {
+  background: #0ca9f8;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: .5em;
+  margin: auto;
+  -webkit-box-shadow: -1px 0px 15px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: -1px 0px 15px 1px rgba(0, 0, 0, 0.12);
+}
+
+.price-table .cancel {
+  background: red;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  padding: .2em .3em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.price-table .total {
+  text-align: right;
+  padding-right: 1em;
+  font-weight: bold;
+}
+
+.none {
+  border: none;
+}
+
+.occupied {
+  background: rgba(255, 122, 14, 0.846);
+  color: white;
+  border: none;
+  cursor: not-allowed;
+}
+
+.for-counter {
+  background: #939393;
+  color: white;
+  border: none;
+  cursor: no-drop;
+}
+
+.for-counter p {
+  opacity: .8;
+}
+/*# sourceMappingURL=style.css.map */
