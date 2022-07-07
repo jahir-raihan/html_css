@@ -21,7 +21,7 @@ $(document).ready(function(){
             temp.setAttribute('id', `${seat_name}`)
             
             temp.innerHTML = `<td><p class="s-name">${seat_name}</p></td> <td><p class="price">1400</p></td><td> <p class="cancel" onclick="remove_seat('${seat_name}')">&#10006;</p></td>`
-            document.getElementById('total-amount').innerHTML = `<p>${total}</p>`;
+            document.getElementById('total-amount').innerHTML = `<p>${total} TK</p>`;
             $('#t-a-t').before(temp)
         }
     });
@@ -38,7 +38,7 @@ function remove_seat(seat_id){
     document.getElementById(seat_id).remove();
     selected.splice(idx, 1)
     total -= price;
-    document.getElementById('total-amount').innerHTML = `<p>${total}</p>`;
+    document.getElementById('total-amount').innerHTML = `<p>${total} TK</p>`;
 }
 
 function check_already_selected(seat_name){
