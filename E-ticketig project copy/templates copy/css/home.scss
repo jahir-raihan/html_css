@@ -261,7 +261,7 @@ footer{
     border:1px solid rgba(0, 0, 0, 0.151);
     
     transition-duration: .3s;
-    width:170px;
+    width:150px;
     border-radius: 5px;
     
     -webkit-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.84); 
@@ -272,18 +272,20 @@ footer{
         li{
             padding:.3em;
             margin-top:.3em;
+            border:1px solid rgba(0, 0, 0, 0);
             border-bottom: 1px solid rgba(0, 0, 0, 0.134);
-            line-height: 2em;
+            line-height: 1.5em;
             display: flex;
             align-items: center;
+
             a{
-                font-size:13px;
+                font-size:11px;
                 color:black;
             }
             img{
-                width:25px;
-                height:25px;
-                border-radius: 50%;
+                width:21px;
+                height:21px;
+                //border-radius: 50%;
                 object-fit: cover;
                 display: block;
                 margin-right:.5em;
@@ -416,11 +418,63 @@ footer{
         box-shadow: 0px 3px 10px -6px rgba(0,0,0,0.84);
      }
  }
-// ad container image mask css
+// dashboard icon css
 
+.right{
+    display: flex;
+    align-items: center;
+}
 
+.dashboard-link{
+    margin-left:1em;
+    margin-top:.3em;
+    cursor: pointer;
+    .ic{
+        display: flex;
+        margin-bottom: .3em;
+    }
+    .d-icon{
+        margin-right:.2em;
+        width:6px;
+        height:6px;
+        border:1px solid rgba(0, 0, 0, 0.266);
+    }
+    
+}
+.dashboard-link:hover{
+    .d-icon{
+        transition-duration: .2s;
+        background:#000000;
+        border:1px solid #000000;
+    }
+}
+.bg-black{
+    .d-icon{
+        background:black;
+    }
+}
 
-// end ad container image mask css
+.admin-user{
+    right:40px;
+}
+
+// css for top nav toggle 
+.arrow{
+    width:13px;
+    height:13px;
+    border-left: 1px solid rgba(0, 0, 0, 0.151);
+    border-bottom: 1px solid rgba(0,0,0,0.151);
+    background:white;
+    position: absolute;
+    transform: rotate(134deg);
+    right:10px;
+    border-radius: 2px;
+    top:-7px;
+
+}
+// end css for top nav toggle
+
+// end end dashboard css
 // media querys
 
 @media only screen and(max-width:800px){

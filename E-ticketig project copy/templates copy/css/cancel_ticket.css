@@ -33,6 +33,7 @@
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
+  margin-top: 1em;
   opacity: .9;
 }
 

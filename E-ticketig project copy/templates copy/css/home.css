@@ -239,7 +239,7 @@ footer .footer-content .mid .q-l ul li a:hover {
   border: 1px solid rgba(0, 0, 0, 0.151);
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
-  width: 170px;
+  width: 150px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.84);
   box-shadow: 0px 3px 15px -8px rgba(0, 0, 0, 0.84);
@@ -249,8 +249,9 @@ footer .footer-content .mid .q-l ul li a:hover {
 .profile-toggle ul li {
   padding: .3em;
   margin-top: .3em;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-bottom: 1px solid rgba(0, 0, 0, 0.134);
-  line-height: 2em;
+  line-height: 1.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,14 +261,13 @@ footer .footer-content .mid .q-l ul li a:hover {
 }
 
 .profile-toggle ul li a {
-  font-size: 13px;
+  font-size: 11px;
   color: black;
 }
 
 .profile-toggle ul li img {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
+  width: 21px;
+  height: 21px;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
@@ -412,6 +412,64 @@ footer .footer-content .mid .q-l ul li a:hover {
 .selected-bus .bus-info-table {
   -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.84);
   box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.84);
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard-link {
+  margin-left: 1em;
+  margin-top: .3em;
+  cursor: pointer;
+}
+
+.dashboard-link .ic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: .3em;
+}
+
+.dashboard-link .d-icon {
+  margin-right: .2em;
+  width: 6px;
+  height: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.266);
+}
+
+.dashboard-link:hover .d-icon {
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  background: #000000;
+  border: 1px solid #000000;
+}
+
+.bg-black .d-icon {
+  background: black;
+}
+
+.admin-user {
+  right: 40px;
+}
+
+.arrow {
+  width: 13px;
+  height: 13px;
+  border-left: 1px solid rgba(0, 0, 0, 0.151);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  background: white;
+  position: absolute;
+  -webkit-transform: rotate(134deg);
+          transform: rotate(134deg);
+  right: 10px;
+  border-radius: 2px;
+  top: -7px;
 }
 
 @media only screen and (max-width: 800px) {

@@ -7,6 +7,9 @@
 
     }
 }
+button{
+    cursor: pointer;
+}
 
 .search{
     display: flex;
@@ -38,7 +41,19 @@
         width:28%;
         font-size: 13px;
         min-width:80px;
+        margin-left:.5em;
+        position: relative;
+        .loader-c-r-c{
+            
+            border-right:4px solid #008cff;
+            border-top:4px solid #008cff;
+        }
     }
+}
+
+.loader-btn{
+    opacity: .6;
+    
 }
 // end universel css for dashboard
 
@@ -53,7 +68,7 @@
             
             border-radius: 15px;
             background:rgb(255, 156, 57);
-            -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.227);
+            -webkit-box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.227);
             box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.227);
         }
         #s-card1{
@@ -84,12 +99,16 @@
             background:#008cff;
             border-radius: 4px;
             height:270px;
+            -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.327);
+            box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.327);
             
         }
         .total-earnings{
             background:#FEE5F8;
             height:270px;
             border-radius: 4px;
+            -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.227);
+            box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.227);
         }
     }
 }
@@ -113,7 +132,7 @@
                 }
                 .head-td{
                     text-align: center;
-                    border:1px solid black;
+                    border:1px solid rgba(0, 0, 0, 0.413);
                     font-size:14px;
 
                 }
@@ -121,7 +140,7 @@
                     height:25px;
                 }
                 tr{
-                    border:1px solid black;
+                    border:1px solid rgba(0, 0, 0, 0.413);
                     height:55px;
                    
                 }
@@ -140,7 +159,7 @@
                 
                 .td-center{
                     text-align: center;
-                    border-left:1px solid black;
+                    border-left:1px solid rgba(0, 0, 0, 0.413);
                 }
                 
                 .p-pic-container{
@@ -153,7 +172,7 @@
                     .p-pic-info{
                         margin-left:.5em;
                         .name{
-                            font-weight:bold;
+                            
                             font-size:14px;
                         }
                     }
@@ -180,14 +199,344 @@
     }
 }
 // end css for recent bookings
+
+// left block and right block seperator css
+
+.d-right{
+    min-width: 236px;
+    .search-section{
+        margin:1em 0;
+    }
+    border-left:1px solid rgba(0, 0, 0, 0.244);
+    
+    padding:0 0 0 1em;
+    margin-left:1.5em;
+}
+// end seperator css
+
+// css for dashborad right block 
+
+.d-right-user-container{
+    
+    .user{
+        display: flex;
+        margin-bottom: 1em;
+        align-items: center;
+        cursor: pointer;
+        padding:.5em;
+        border-radius: 4px;
+    }
+    img{
+        display: block;
+        width:35px;
+        height:35px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-position: center;
+       
+    }
+    .user-info{
+        margin-left:.5em;
+        p{
+            opacity: .7;
+            font-size:13px;
+            color:black;
+        }
+        .name{
+            font-size:14px;
+
+        }
+    }
+
+    .user:hover{
+        -webkit-box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.427);
+        box-shadow: 0px 3px 15px -6px rgba(0, 0, 0, 0.427);
+    }
+}
+.staffs, .normal-users{
+    border-top:.5px solid rgba(0, 0, 0, 0.324);
+}
+
+.view-all-user-links{
+    border-top:.5px solid rgba(0, 0, 0, 0.324);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em 0;
+    a{
+        color:black;
+        text-decoration: none;
+        font-size:13px;
+        opacity: .7;
+    }
+    a:hover{
+        color:#047adb;
+        text-decoration: underline;
+    }
+}
+// end css for dashboard right block
 // css for dashboard-container
 .dashboard-container{
+    
     display: grid;
     grid-template-columns: 70% 30%;
-    border:none !important;
+    
+    border:1px solid rgba(0, 0, 0, 0.244) !important;
     box-shadow: none !important;
+    padding-top:0 !important;
+    padding-bottom: 0 !important;
+    
 }
 body{
     background:white;
 }
 // end css for dashboard-container
+// css for statistics card
+
+.card{
+    padding:.5em 1em;
+    
+    img{
+        display: block;
+        width:30px;
+        height:30px;
+        margin-right:.5em;
+        opacity: .6;
+    }
+    .card-body{
+        display: flex;
+        align-items: center;
+        width:fit-content;
+        margin:22px auto 0% auto;
+    }
+    
+    p{
+        font-size:12px;
+        opacity: .6;
+    }
+}
+
+.up-arrow{
+    color:green;
+}
+.do-arrow{
+    color:red;
+}
+
+.card-body-earnings{
+    margin-top:1em !important;
+}
+
+// end css for statistics card
+
+
+// css for yearly analysis
+.total-earnings{
+    padding:.3em;
+    .t-e-container{
+        width:fit-content;
+         margin:3em auto;
+         
+        .head{
+            display: flex;
+            align-items:center;
+            margin-bottom: 1em;
+            img{
+                display: block;
+                width:30px;
+                height:30px;
+                margin-right:.3em;
+                
+            }
+            p{
+                font-size:14px;
+            }
+        }
+        .amount{
+            font-weight: bold;
+           
+            margin:2em 0 0 0;
+        }
+        .small{
+            font-size:12px;
+        }
+        .view-btn-t-e{
+            margin-top:2em;
+            width:100%;
+            button{
+                width:fit-content;
+                border:none;
+                background:white;
+                color:black;
+                opacity: .8;
+                padding:.3em 1.5em;
+                font-size:12px;
+                border-radius: 4px;
+                -webkit-box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.427);
+                box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.427);
+
+            }
+        }
+    }
+}
+
+// end css for yearly analysis
+// medai querys
+
+@media only screen and(max-width:1010px){
+    .statistic-container{
+        display: grid !important;
+        
+        grid-template-columns: 25% 25% 25%;
+        gap:5%;
+        margin-bottom: 2em;
+    }
+    .dashboard-container{
+        grid-template-columns: 65% 35%;
+        .d-left{
+            margin-right:1.5em;
+
+            .total-earnings{
+                width:175px;
+            }
+        }
+    }
+}
+@media only screen and(max-width:960px){
+    .dashboard-container{
+        grid-template-columns: 60% 38%;
+        .statistic-container{
+            .card{
+                width:130px;
+            }
+        }
+        .total-earnings{
+            width:155px !important;
+        }
+    }
+
+    .r-b-container{
+        .booking-data{
+            table{
+                td{
+                    font-size:12px !important;
+                    padding:.3em !important;
+                    p{
+                        font-size:11px !important;
+                    }
+                }
+                .p-pic-container{
+                    padding-top:.8em !important;
+                    .p-pic{
+                        img{
+                            width:30px;
+                            height:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and(max-width:850px){
+    .statistic-container{
+        margin-bottom: 3.5em;
+        grid-template-columns: 40% 40%;
+        gap:20%;
+        .card{
+            width:100% !important
+        }
+    }
+    .yearly-analysis-container{
+        grid-template-columns: 100% !important;
+        .total-earnings{
+            width:100% !important;
+        }
+    }
+}
+@media only screen and (max-width:770px){
+    .dashboard-container{
+        grid-template-columns: 100%;
+        .d-left{
+            margin-right:0;
+            .statistic-container{
+                grid-template-columns: 30% 30% 30%;
+                gap:3.3%;
+                margin-bottom: .5em;
+                .card{
+                    margin-bottom: 1em;
+                }
+            }
+            .yearly-analysis-container{
+                grid-template-columns: 58% 38% !important;
+                gap:4%;
+            }
+            .recent-bookings{
+                padding-top:1em;
+                border-top:1px solid rgba(0, 0, 0, 0.244) !important;
+            }
+        }
+        .d-right{
+            margin-left:0;
+            padding:0;
+            border-left:none;
+            border-top:1px solid rgba(0, 0, 0, 0.244);
+
+        }
+        .r-b-head{
+            grid-template-columns: 30% 70% ;
+        }
+        
+
+    }
+
+}
+@media only screen and (max-width:520px){
+    .statistic-container{
+        grid-template-columns: 47% 47% !important;
+        
+        gap:15px;
+    }
+    .dashboard-container{
+        .d-left{
+            .yearly-analysis{
+                margin-bottom: 3em;
+                .yearly-analysis-container{
+                    grid-template-columns: unset !important ;
+                }
+            }
+        }
+    }
+    
+    
+}
+@media only screen and (max-width:480px){
+    .d-left{
+        .recent-bookings{
+            .r-b-container{
+                table{
+                    td{
+                        font-size:11px !important;
+                        padding:.5em !important
+                    }
+                    p{
+                        font-size:10px !important;
+                    }
+                };
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:325px){
+    .recent-bookings{
+        display: none;
+    }
+}
+@media only screen and (max-width:440px){
+    .statistic-container{
+        margin-bottom: 3em !important;
+        grid-template-columns: 100% !important;
+
+    }
+}
