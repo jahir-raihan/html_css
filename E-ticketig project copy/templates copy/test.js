@@ -1,15 +1,31 @@
-function hello(){
-    var data = [
-    {
-      x: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November'],
-      y: [3400090, 4450003, 4343433, 4544545, 5657565, 3434343, 5656475, 4354466, 4545343, 3434434, 2424242],
-      type: 'bar'
-    }
-  ];
-  
-  Plotly.newPlot('myDiv', data);
-}
+window.onload = function () {
 
-hello()
-
+  var chart = new CanvasJS.Chart("myDiv", {
+    animationEnabled: true,
+    theme: "light2", // "light1", "light2", "dark1", "dark2"
+    title:{
+      text: "Yearly Revenue "
+    },
+    // axisY: {
+    //   title: "Reserves(MMbbl)"
+    // },
+    data: [{        
+      type: "column",  
+      showInLegend: true, 
+      legendMarkerColor: "grey",
+      legendText: "Numbers in Dollars eg: 990$",
+      dataPoints: [      
+        { y: 300878, label: 2015 },
+        { y: 266455,  label: 2016 },
+        { y: 169709,  label: 2017 },
+        { y: 158400,  label: 2018 },
+        { y: 142503,  label: 2019 },
+        { y: 101500, label: 2020 },
+        { y: 97800,  label: 2021 },
+        { y: 80000,  label: 2022 }
+      ]
+    }]
+  });
+  chart.render();
   
+  }
