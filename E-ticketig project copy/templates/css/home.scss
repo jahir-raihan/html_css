@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+// initial css
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,10 +14,16 @@ a{
     text-decoration: none;
 }
 
+// end initial css
+
+// header css
+
 header{
     background:rgb(255, 230, 44);
     -webkit-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.84); 
     box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.84);
+    
+    
     nav{
         width:90%;
         
@@ -36,22 +43,26 @@ header{
             
             ul{
                 display: flex;
-                
+                height:95px;
                 li{
-                    margin-left:.5em;
                     
-                    padding:.5em;
+                    
+                    padding:.5em .7em;
+                    height:100%;
+                    padding-top:2.2em;
+                    
                     a{
                         color:rgb(0, 0, 0);
                         font-weight: 500;
+                        
                     }
                 }
                 li:hover{
                     transition-duration: .3s;
                     cursor: pointer;
-                    border-bottom: 2px solid rgba(54, 138, 255, 0.973);
+                    background:#0fa87f;
                     a{
-                        color:rgb(0, 102, 255);
+                        color:rgb(255, 255, 255);
                     }
                     
                 }
@@ -60,6 +71,7 @@ header{
     }
 }
 
+// end header css
 
 // footer css
 
@@ -139,11 +151,12 @@ footer{
     font-weight:normal;
     
 }
-// end footer
+// end footer css
 
 //toggle nav css
 .responsive{
     display:none;
+    
     .ham-menu{
         cursor:pointer;
         display: none;
@@ -154,11 +167,93 @@ footer{
             margin-bottom: .5em;
 
         }
+        #ham1{
+            width:36px;
+
+        }
+        
+        #ham3{
+            width:28px;
+        }
     }
 
     .link-menu{
         display: none;
     }
+}
+.ham-cross-menu{
+    display: none;
+    position: relative;
+    height:50px;
+    -webkit-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.84); 
+    box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.84);
+    background:#0fa87f;
+    border-radius: 4px;
+    width:50px;
+    cursor: pointer;
+    p{
+        font-size:50px;
+        position:absolute;
+        top:-21.5px;
+        right:13px;
+        color:white;
+    }
+    
+}
+
+.link-menu{
+    top:100px;
+    position:absolute;
+    
+    animation-name: animate_left;
+    animation-duration: .5s;
+    right:0;
+    width:100%;
+    height:95vh;
+   
+    background:#0b4a4f;
+    border-bottom: 1px solid white;
+    
+    ul{
+        
+        display: block !important;
+        text-align: center;
+        li{
+            line-height:4em !important;
+            height:5em !important;
+            padding:.5em 0 !important;
+            
+            border-bottom:1px solid rgba(0, 0, 0, 0.288);
+            a{
+                color:white !important;
+            }
+        }
+    }
+}
+
+.d-none{
+    display: none !important;
+}
+.d-show{
+    display: block !important;
+}
+.c-txt{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    padding-bottom: .5em;
+    .copy-text{
+        color:white;
+        width:fit-content;
+        margin:auto;
+        font-size:13px;
+    }
+}
+
+@keyframes animate_left{
+    0% {top:100px; height:40%}
+    
+    100%{top: 100px;height:100%}
 }
 // end toggle nav css
 
@@ -172,8 +267,10 @@ footer{
     }
     .responsive{
         display: block;
+        
         .ham-menu{
             display: block;
+            margin-top:.5em;
         }
     }
 }
@@ -202,5 +299,14 @@ footer{
         .left, .mid, .right{
             width:100% !important;
         }
+    }
+}
+@media only screen and(min-width:800px){
+    #container{
+        display: block !important;
+
+    }
+    #footer{
+        display: block !important;
     }
 }

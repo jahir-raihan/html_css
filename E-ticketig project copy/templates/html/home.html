@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/home.js"></script>
     <title>Buy E-Ticket</title>
 </head>
 <body>
@@ -27,13 +28,16 @@
                     </ul>
                 </div>
                <div class="responsive">
-                   <div class="ham-menu">
-                       <div class="ham"></div>
-                       <div class="ham"></div>
-                       <div class="ham"></div>
+                   <div class="ham-menu" id="ham-menu" onclick="toggle_nav('ham-menu', 'cross-icon')" >
+                       <div id="ham1" class="ham"></div>
+                       <div id="ham2" class="ham "></div>
+                       <div id="ham3" class="ham"></div>
+                   </div>
+                   <div class="ham-cross-menu" id="cross-icon" onclick="toggle_nav('cross-icon', 'ham-menu')">
+                       <p>&Cross;</p>
                    </div>
 
-                   <div class="link-menu">
+                   <div class="link-menu" id="link-menu">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Services</a></li>
@@ -41,6 +45,11 @@
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Cancel Ticket</a></li>
                         </ul> 
+
+                        <div class="c-txt">
+                             <p class="copy-text">&copy; Copyright Start Line 2022 All Rights Reserved.</p>
+                        </div>
+                       
                    </div>
                     
                </div>
@@ -50,11 +59,11 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container" id="container">
 
     </div>
 
-    <footer>
+    <footer id="footer">
         <div class="footer-content">
 
         

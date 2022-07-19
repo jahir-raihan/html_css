@@ -32,12 +32,16 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.304);
 }
 
+.search-for-bus .search-f-b-container .s-b-f .input, .search-for-bus .search-f-b-container .starting-point .input {
+  position: relative;
+}
+
 .search-for-bus .search-f-b-container .s-b-f .input lable, .search-for-bus .search-f-b-container .starting-point .input lable {
   display: block;
 }
 
 .search-for-bus .search-f-b-container .s-b-f .input .p-wrapper, .search-for-bus .search-f-b-container .starting-point .input .p-wrapper {
-  margin: .5em 0 1em 0;
+  margin: .5em 0 1.5em 0;
   border: 1.5px solid rgba(0, 0, 0, 0.196);
   width: 100%;
   border-radius: 4px;
@@ -146,6 +150,26 @@
      object-fit: cover;
   min-width: 300px;
   border-radius: 4px;
+}
+
+.s-f-b-btn {
+  position: relative;
+}
+
+.s-f-b-l {
+  width: 17px;
+  height: 17px;
+  border: 3px solid white;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.warning-invalid {
+  color: #ff9500;
+  font-size: 11px;
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
 }
 
 @media only screen and (max-width: 800px) {
